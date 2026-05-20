@@ -13,7 +13,7 @@
 
 `newrole {{[-t|--type]}} {{nome_tipo}}`
 
-- Avvia una nuova shell con un livello SELinux specifico (formato: `s0-s0:c0.c1023` dove i livelli vanno da `s0` a `s15`, `-` indica un intervallo di livelli, le categorie iniziano con `c`, `:` separa il livello dalle categorie, `.` indica un intervallo di categorie):
+- Avvia una nuova shell con un livello SELinux specifico (formato: `s0-s0:c0.c1023`; livelli da `s0` a `s15`, `-` per intervallo, `c` per categorie, `:` separa livello da categorie, `.` per intervallo di categorie):
 
 `newrole {{[-l|--level]}} {{s0-s0:c0.c1023}}`
 

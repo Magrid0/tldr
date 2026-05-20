@@ -3,7 +3,7 @@
 > Corregge i contesti di sicurezza SELinux dei file.
 > Maggiori informazioni: <https://manned.org/fixfiles>.
 
-- Se specificato con onboot, fixfiles registra la data corrente nel file `/.autorelabel`, in modo da poter essere utilizzata successivamente per velocizzare l'etichettatura. Se utilizzato con restore, il ripristino interesserà solo i file modificati oggi:
+- Se specificato con onboot, fixfiles registra la data corrente in `/.autorelabel` per velocizzare l'etichettatura successiva. Con restore, agisce solo sui file modificati oggi:
 
 `fixfiles -B`
 
